@@ -11,4 +11,23 @@ The main idea behind Appium can be easily grasped by looking at the following fi
 
 ## Installation
 
-Work in progress
+```bash
+$ sudo npm install -g appium
+```
+
+Check dependencies
+```bash
+$ appium-doctor
+```
+
+Run it
+```bash
+$ appium
+```
+
+## Run acceptance tests
+
+```bash
+$ protractor test/config.js
+```
+
