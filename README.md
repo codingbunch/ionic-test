@@ -10,9 +10,9 @@ ionic-test
 ##Installing ionic
 
 ```bash
-$ sudo npm install -g ionic
+$ sudo npm install -g ionic cordova
 ```
-Add specific plattforms
+Add specific platforms
 ```bash
 $ ionic platform ios
 $ ionic platform android
