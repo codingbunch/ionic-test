@@ -31,3 +31,13 @@ $ appium
 $ protractor test/config.js
 ```
 
+### Useful info
+
+
+[Fast Android emulator](http://www.genymotion.com/)
+
+[Set up protractor with appium](https://github.com/angular/protractor/blob/master/docs/browser-setup.md)
+
+[WebDriverJs](https://code.google.com/p/selenium/wiki/WebDriverJs)
+
+[Appim js client](https://github.com/admc/wd)
