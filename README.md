@@ -9,8 +9,16 @@ ionic-test
 
 ##Installing ionic
 
+Fetch the code
+
 ```bash
-$ sudo npm install -g ionic cordova
+$ git clone https://github.com/codingbunch/ionic-test.git
+$ cd ionic-test
+$ npm install
+```
+Install ionic cli
+```bash
+$ npm install -g ionic cordova
 ```
 Add specific platforms
 ```bash
