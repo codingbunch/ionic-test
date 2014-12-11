@@ -25,9 +25,35 @@ Run it
 $ appium
 ```
 
-## Run acceptance tests
+## Acceptance tests
+
+### Install protactor
+
+```bash
+$ sudo npm install -g protector
+```
+
+```bash
+$ sudo webdriver-manager update
+```
+
+```bash
+$ sudo webdriver-manager start
+```
+
+### Run the tests
 
 ```bash
 $ protractor test/config.js
 ```
 
+### Useful info
+
+
+[Fast Android emulator](http://www.genymotion.com/)
+
+[Set up protractor with appium](https://github.com/angular/protractor/blob/master/docs/browser-setup.md)
+
+[WebDriverJs](https://code.google.com/p/selenium/wiki/WebDriverJs)
+
+[Appim js client](https://github.com/admc/wd)
