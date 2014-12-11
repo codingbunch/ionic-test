@@ -25,7 +25,23 @@ Run it
 $ appium
 ```
 
-## Run acceptance tests
+## Acceptance tests
+
+### Install protactor
+
+```bash
+$ sudo npm install -g protector
+```
+
+```bash
+$ sudo webdriver-manager update
+```
+
+```bash
+$ sudo webdriver-manager start
+```
+
+### Run the tests
 
 ```bash
 $ protractor test/config.js
