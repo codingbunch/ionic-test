@@ -12,6 +12,7 @@ function messagesSteps() {
 
   this.Then(/^the view must have (\d+) messages$/, function thenViewHasMessages (num,done){
     expect(element.all(by.repeater('message in messages')).count()).to.eventually.equal(parseInt(num))
+    done()
   })
 
 }
