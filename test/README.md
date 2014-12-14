@@ -1,4 +1,4 @@
-## What is Appium?
+# What is Appium?
 
 Appium is used to automate tests on devices with the main objective of allowing users to write tests once, and run them on different platforms and devices with no further effort.
 The main idea behind Appium can be easily grasped by looking at the following figure.
@@ -20,31 +20,46 @@ Check dependencies
 $ appium-doctor
 ```
 
-Run it
+## Running appium server
 ```bash
 $ appium
 ```
-
-## Acceptance tests
-
-### Install protactor
+## Run the tests
 
 ```bash
-$ sudo npm install -g protector
+$ protractor test/appiumConfig.js
+```
+
+# Protractor
+
+[Protractor](http://angular.github.io/protracto) is an E2E test framework for angular apps.
+
+## Installation
+
+```bash
+$ sudo npm install -g protractor
 ```
 
 ```bash
-$ sudo webdriver-manager update
+$ webdriver-manager update
 ```
 
+## Running webdriver server
+
 ```bash
-$ sudo webdriver-manager start
+$ webdriver-manager start
 ```
 
-### Run the tests
+## Running ionic app in local browser
 
 ```bash
-$ protractor test/config.js
+$ionic serve
+```
+
+## Run the tests
+
+```bash
+$ protractor test/chromeConfig.js
 ```
 
 ### Useful info
