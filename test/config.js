@@ -21,7 +21,7 @@ exports.config = {
   },
 */
   allScriptsTimeout: 30000,
-  seleniumAddress: 'http://127.0.0.1:4444/wd/hub',
+  seleniumAddress: 'http://127.0.0.1:4723/wd/hub',
 
   onPrepare: function() {
     var wd = require('wd'),
