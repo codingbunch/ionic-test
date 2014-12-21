@@ -1,7 +1,7 @@
 var afterHook = function () {
   	this.After(function (done) {
   		console.log('After hook')
-      browser.quit()
+      //browser.quit()
       done()
 	})
 }
