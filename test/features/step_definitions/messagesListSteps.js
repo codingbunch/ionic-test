@@ -13,8 +13,10 @@ function messagesSteps() {
   })
 
   this.Then(/^the view must have (\d+) messages$/, function thenViewHasMessages (num,done){
-    expect(messages.list.count()).to.eventually.equal(parseInt(num))
-    done()
+    messages.list.count().then(function(count){
+      expect(count).to.equal(parseInt(num))
+      done()
+    })
   })
 
 }
